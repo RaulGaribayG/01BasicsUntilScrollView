@@ -40,6 +40,18 @@
 				"header": []
 			},
 			"response": []
+		},
+		{
+			"name": "asasqw",
+			"id": "32377564-74a8559d-8061-4259-8d60-3ba4f8cdff11",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
