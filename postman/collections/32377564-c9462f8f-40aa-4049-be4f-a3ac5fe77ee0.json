@@ -28,6 +28,18 @@
 				"header": []
 			},
 			"response": []
+		},
+		{
+			"name": "test123",
+			"id": "32377564-3225c0fc-0907-4399-9155-9596de9b5979",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
