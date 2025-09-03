@@ -40,6 +40,38 @@
 				"header": []
 			},
 			"response": []
-		}
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userName\": \"francisco.hernandez\",\r\n  \"password\": \"-\",\r\n  \"nameApp\": \"PortalCliente\",\r\n  \"nameTechnology\": \"Identity\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://portalclientesapi-h3hcg3hrgdhgfngx.westus-01.azurewebsites.net/api/userlogin/login",
+					"protocol": "https",
+					"host": [
+						"portalclientesapi-h3hcg3hrgdhgfngx",
+						"westus-01",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"userlogin",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
 	]
 }
